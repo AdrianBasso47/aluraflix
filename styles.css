@@ -12,7 +12,7 @@ header {
     color: rgb(42, 122, 228);
 }
 
-section {
+.chamada {
     background: rgb(184,156,213);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -23,7 +23,19 @@ section {
 .chamada-texto {
     margin-right: 5%;
 }
-img {
-  height: 200px;
+h1 {
+  font-size: 40px;
 }
 
+categoria-vidos{
+    display:flexoverflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding: right 20ex;margin-top: 50px;
+}
+.categoria-videos img {
+    opacity: 0.5
+}
